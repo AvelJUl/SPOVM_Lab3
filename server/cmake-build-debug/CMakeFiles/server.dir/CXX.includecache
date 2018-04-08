@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/raccoon/CLionProjects/lab3/server/main.cpp
+sys/types.h
+-
+sys/ipc.h
+-
+sys/shm.h
+-
+stdio.h
+-
+stdlib.h
+-
+unistd.h
+-
+signal.h
+-
+string
+-
+iostream
+-
+sstream
+-
+ncurses.h
+-
+
